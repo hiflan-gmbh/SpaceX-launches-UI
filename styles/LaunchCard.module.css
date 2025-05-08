@@ -1,0 +1,37 @@
+.launch_card {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 18rem;
+  min-height: 28rem;
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+  margin: 8px;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06),
+    0 10px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.launch_card:hover {
+  transform: translateY(-5px); /* Slight lift effect */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1),
+    0 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.launch_card p {
+  font-size: 0.8rem;
+}
+
+.launch_card h2 {
+  font-size: 1rem;
+}

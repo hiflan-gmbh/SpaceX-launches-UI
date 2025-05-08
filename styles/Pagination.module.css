@@ -1,0 +1,35 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* Space between elements */
+  margin: 1.5rem 0; /* Add spacing above and below the pagination */
+  font-family: 'Poppins', sans-serif; /* Optional: Use a modern font */
+  font-size: 1rem;
+  color: #333; /* Neutral text color */
+}
+
+.arrowButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem; /* Larger size for the arrow */
+  color: #333; /* Neutral color */
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.arrowButton:disabled {
+  color: #ccc; /* Disabled arrow color */
+  cursor: not-allowed;
+}
+
+.arrowButton:hover:not(:disabled) {
+  color: #0070f3; /* Highlight color on hover */
+}
+
+.paginationInfo {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #555; /* Subtle gray color */
+  text-align: center;
+}
